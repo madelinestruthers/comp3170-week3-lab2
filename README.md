@@ -1,8 +1,16 @@
-# React + Vite
+# COMP3170 Lab 2 template
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This template provides a minimal setup for lab 2 of COMP3170 (Fall 2024 term).
 
-Currently, two official plugins are available:
+To use it, create a folder for the project on your machine and run the following command:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```
+npx degit yveshema/COMP3170-week3-lab2
+```
+
+Alternatively, click on the **Use this template** button at the top right of this template and select the **Create new repository** option.
+Afterwards, clone the repository locally and you're good to go:
+
+```
+git clone <your_repository_url>
+```
