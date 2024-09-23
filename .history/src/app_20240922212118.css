@@ -1,0 +1,47 @@
+.app {
+  padding: 20px;
+  text-align: center;
+}
+
+header {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.artist-list {
+  display: flex;
+  flex-wrap: wrap;  /* Allows the cards to wrap into rows */
+  justify-content: space-between;  /* Distributes space between the cards */
+  gap: 20px;  /* Adds spacing between the cards */
+  margin-top: 20px;
+}
+
+.artist-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  padding: 15px;
+
+  border-radius: 10px;
+
+  transition: transform 0.3s;
+}
+
+.artist-card:hover {
+  transform: scale(1.05);
+}
+
+img {
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+p {
+  margin: 5px 0;
+}
